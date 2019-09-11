@@ -21,6 +21,8 @@ type Message struct {
 	Email    string `json:"email"`
 	Username string `json:"username"`
 	Message  string `json:"message"`
+	Room  string `json:"room"`
+	Type  string `json:"type"`
 }
 
 func main() {
